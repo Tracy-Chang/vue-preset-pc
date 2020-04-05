@@ -1,13 +1,18 @@
 {
-    "useConfigFiles": true,
-    "cssPreprocessor": "sass",
-    "plugins": {
-      "@vue/cli-plugin-babel": {},
-      "@vue/cli-plugin-eslint": {
-        "config": "airbnb",
-        "lintOn": ["save", "commit"]
-      },
-      "@vue/cli-plugin-router": {},
-      "@vue/cli-plugin-vuex": {}
-    }
+  "useConfigFiles": true,
+  "plugins": {
+    "@vue/cli-plugin-babel": {},
+    "@vue/cli-plugin-eslint": {
+      "config": "standard",
+      "lintOn": [
+        "save",
+        "commit"
+      ]
+    },
+    "@vue/cli-plugin-unit-mocha": {}
+  },
+  "router": true,
+  "routerHistoryMode": true,
+  "vuex": true,
+  "cssPreprocessor": "dart-sass"
 }
