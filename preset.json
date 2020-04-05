@@ -14,5 +14,12 @@
   "router": true,
   "routerHistoryMode": true,
   "vuex": true,
-  "cssPreprocessor": "dart-sass"
+  "cssPreprocessor": "dart-sass",
+  "configs": {
+    "eslintConfig": {
+      "rules": {
+        "no-alert": 0
+      }
+    }
+  }
 }
